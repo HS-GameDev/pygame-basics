@@ -20,6 +20,7 @@ while True:  #game loop
             pygame.quit()
             sys.exit()
 
+
     surf = pygame.transform.scale(display, WINDOW_SIZE) #create game window
     screen.blit(surf, (0,0)) #design window
     pygame.display.update() #update continous
